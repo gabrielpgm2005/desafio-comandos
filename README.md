@@ -5,3 +5,5 @@
 - p3: ls challenges/
 - p4: mkdir foo
 - p5: mkdir -p foo/bar/1/2/3
+- p6: rm -r foo/
+
