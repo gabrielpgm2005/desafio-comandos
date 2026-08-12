@@ -13,3 +13,4 @@
 - p10: rm empty.txt
 - p11: > empty.txt
 - p12: echo "" > empty.txt
+cp hello.txt goodbye.txt
