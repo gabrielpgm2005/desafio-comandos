@@ -18,3 +18,4 @@
 - p16: cat hello_copy.txt hello.txt > 2_hellos.txt
 - p17: pwd
 - p18: ls -l
+- p19: echo "TEXTO LEGAL" >> challenges/restricted.txt
