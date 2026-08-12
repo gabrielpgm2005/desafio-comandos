@@ -17,3 +17,4 @@
 - p15: cat hello.txt && cat hello_copy.txt
 - p16: cat hello_copy.txt hello.txt > 2_hellos.txt
 - p17: pwd
+- p18: ls -l
