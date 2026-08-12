@@ -11,3 +11,4 @@
 - p9: touch empty.txt
 
 - p10: rm empty.txt
+- p11: > empty.txt
