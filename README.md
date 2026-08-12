@@ -19,3 +19,4 @@
 - p17: pwd
 - p18: ls -l
 - p19: echo "TEXTO LEGAL" >> challenges/restricted.txt
+- p20: challenges/hello_executable
