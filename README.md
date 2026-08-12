@@ -29,3 +29,4 @@
 - p28-b: grep -R "You found the needle in the haystack!" challenges/bunch_of_files/
 - p29: head -n 25 challenges/people.csv
 - p30: tail -n 25 challenges/people.csv 
+- p31: diff challenges/greeting1.txt challenges/greeting2.txt
