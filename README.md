@@ -9,7 +9,7 @@
 - p7: echo "hello world"
 - p8: touch hello.txt && echo "Hello World" > hello.txt
 - p9: touch empty.txt
-
 - p10: rm empty.txt
 - p11: > empty.txt
 - p12: echo "" > empty.txt
+- p13: cp hello.txt goodbye.txt
