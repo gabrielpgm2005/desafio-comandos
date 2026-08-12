@@ -8,4 +8,5 @@
 - p6: rm -r foo/
 - p7: echo "hello world"
 - p8: touch hello.txt && echo "Hello World" > hello.txt
+- p9: touch empty.txt
 
