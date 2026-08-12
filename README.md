@@ -26,3 +26,4 @@
 - p25: top
 - p26: nproc
 - p27: uname -r
+- p28-b: grep -R "You found the needle in the haystack!" challenges/bunch_of_files/
