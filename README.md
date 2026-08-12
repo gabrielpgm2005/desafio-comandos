@@ -25,3 +25,4 @@
 - p24: date
 - p25: top
 - p26: nproc
+- p27: uname -r
