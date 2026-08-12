@@ -35,3 +35,4 @@
 - p34: head -c 2000 /dev/random > arquivo2.txt
 - p35: wc -l README.md
 - P36: tac README.md
+- p37: cut -d "," -f2 challenges/people.csv
