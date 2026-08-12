@@ -33,3 +33,4 @@
 - p32: echo "Hello" && sleep 5s && echo "world!"
 - p33: head -c 1000 /dev/zero | tr 0 0 > arquivoum.txt
 - p34: head -c 2000 /dev/random > arquivo2.txt
+- p35: wc -l README.md
