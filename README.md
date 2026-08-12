@@ -27,3 +27,4 @@
 - p26: nproc
 - p27: uname -r
 - p28-b: grep -R "You found the needle in the haystack!" challenges/bunch_of_files/
+- p29: head -n 25 challenges/people.csv
