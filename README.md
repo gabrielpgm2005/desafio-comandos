@@ -10,3 +10,4 @@
 - p8: touch hello.txt && echo "Hello World" > hello.txt
 - p9: touch empty.txt
 
+- p10: rm empty.txt
