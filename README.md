@@ -23,3 +23,4 @@
 - p21: chmod +x challenges/challenge_20 && challenges/challenge_20
 - p23: challenges/redirect &> output.txt
 - p24: date
+- p25: top
