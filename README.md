@@ -37,3 +37,4 @@
 - P36: tac README.md
 - p37: cut -d "," -f2 challenges/people.csv
 - p38: cut -d ',' -f 2 challenges/people.csv | sort -u | wc -l
+- p39: sed '1d' challenges/people.csv | cut -d',' -f2 | sort -u | wc -l
