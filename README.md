@@ -24,3 +24,4 @@
 - p23: challenges/redirect &> output.txt
 - p24: date
 - p25: top
+- p26: nproc
