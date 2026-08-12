@@ -36,3 +36,4 @@
 - p35: wc -l README.md
 - P36: tac README.md
 - p37: cut -d "," -f2 challenges/people.csv
+- p38: cut -d ',' -f 2 challenges/people.csv | sort -u | wc -l
