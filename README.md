@@ -49,3 +49,4 @@
 - p48: find challenges/bunch_of_files -type f -exec cmp -s challenges/bunch_of_files/file001.rand {} \; -print
 - p49: 1: touch supercalifragilisticexpialidocious.txt;
 - p49: 2: rm $_
+- p50: touch {a..c}-{1..3}.txt
