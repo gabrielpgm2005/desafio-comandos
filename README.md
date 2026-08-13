@@ -31,7 +31,7 @@
 - p30: tail -n 25 challenges/people.csv 
 - p31: diff challenges/greeting1.txt challenges/greeting2.txt
 - p32: echo "Hello" && sleep 5s && echo "world!"
-- p33: head -c 1000 /dev/zero | tr 0 0 > arquivoum.txt
+- p33: head -c 1000 /dev/zero | tr '\0' '0' > arquivoum.txt
 - p34: head -c 2000 /dev/random > arquivo2.txt
 - p35: wc -l README.md
 - P36: tac README.md
@@ -44,3 +44,4 @@
 - p43: ls -p challenges/ | grep -v "/" | wc -l
 - p44: ls -p challenges/ | grep "/" | wc -l
 - p45: find . -type f -name "*deleteme*" -delete
+- P46: grep -lr "You found the needle in the haystack!" challenges/ | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./'
