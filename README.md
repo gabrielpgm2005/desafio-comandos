@@ -22,3 +22,32 @@
 - p20: challenges/hello_executable
 - p21: chmod +x challenges/challenge_20 && challenges/challenge_20
 - p22: gcc challenges/compile_me.c -o compilado
+- p23: challenges/redirect &> output.txt
+- p24: date
+- p25: top
+- p26: nproc
+- p27: uname -r
+- p28-b: grep -R "You found the needle in the haystack!" challenges/bunch_of_files/
+- p29: head -n 25 challenges/people.csv
+- p30: tail -n 25 challenges/people.csv 
+- p31: diff challenges/greeting1.txt challenges/greeting2.txt
+- p32: echo "Hello" && sleep 5s && echo "world!"
+- p33: head -c 1000 /dev/zero | tr '\0' '0' > arquivoum.txt
+- p34: head -c 2000 /dev/random > arquivo2.txt
+- p35: wc -l README.md
+- P36: tac README.md
+- p37: cut -d "," -f2 challenges/people.csv
+- p38: cut -d ',' -f 2 challenges/people.csv | sort -u | wc -l
+- p39: sed '1d' challenges/people.csv | cut -d',' -f2 | sort -u | wc -l
+- p40: tail -n +2 challenges/people.csv | cut -d ',' -f 2 | sort -u | wc -l
+- p41: time sed '1d' challenges/people.csv | cut -d',' -f2 | sort -u | wc -l && time tail -n +2 challenges/people.csv | cut -d',' -f2 | sort -u | wc -l
+- p42: cut -d ',' -f 4 challenges/people.csv | grep Josiah | wc -l
+- p43: ls -p challenges/ | grep -v "/" | wc -l
+- p44: ls -p challenges/ | grep "/" | wc -l
+- p45: find . -type f -name "*deleteme*" -delete
+- P46: grep -lr "You found the needle in the haystack!" challenges/ | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./'
+- p47: sed 's/,/|/g' challenges/people.csv > people_pipe.csv
+- p48: find challenges/bunch_of_files -type f -exec cmp -s challenges/bunch_of_files/file001.rand {} \; -print
+- p49: 1: touch supercalifragilisticexpialidocious.txt;
+- p49: 2: rm $_
+- p50: touch {a..c}-{1..3}.txt
