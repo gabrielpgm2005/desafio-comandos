@@ -46,3 +46,4 @@
 - p45: find . -type f -name "*deleteme*" -delete
 - P46: grep -lr "You found the needle in the haystack!" challenges/ | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./'
 - p47: sed 's/,/|/g' challenges/people.csv > people_pipe.csv
+- p48: find challenges/bunch_of_files -type f -exec cmp -s challenges/bunch_of_files/file001.rand {} \; -print
