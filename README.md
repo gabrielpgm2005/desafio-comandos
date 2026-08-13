@@ -21,6 +21,7 @@
 - p19: echo "TEXTO LEGAL" >> challenges/restricted.txt
 - p20: challenges/hello_executable
 - p21: chmod +x challenges/challenge_20 && challenges/challenge_20
+- p22: gcc challenges/compile_me.c -o compilado
 - p23: challenges/redirect &> output.txt
 - p24: date
 - p25: top
