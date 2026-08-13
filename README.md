@@ -43,3 +43,4 @@
 - p42: cut -d ',' -f 4 challenges/people.csv | grep Josiah | wc -l
 - p43: ls -p challenges/ | grep -v "/" | wc -l
 - p44: ls -p challenges/ | grep "/" | wc -l
+- p45: find . -type f -name "*deleteme*" -delete
