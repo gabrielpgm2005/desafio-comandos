@@ -41,3 +41,4 @@
 - p40: tail -n +2 challenges/people.csv | cut -d ',' -f 2 | sort -u | wc -l
 - p41: time sed '1d' challenges/people.csv | cut -d',' -f2 | sort -u | wc -l && time tail -n +2 challenges/people.csv | cut -d',' -f2 | sort -u | wc -l
 - p42: cut -d ',' -f 4 challenges/people.csv | grep Josiah | wc -l
+- p43: ls -p challenges/ | grep -v "/" | wc -l
