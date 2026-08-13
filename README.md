@@ -39,3 +39,4 @@
 - p38: cut -d ',' -f 2 challenges/people.csv | sort -u | wc -l
 - p39: sed '1d' challenges/people.csv | cut -d',' -f2 | sort -u | wc -l
 - p40: tail -n +2 challenges/people.csv | cut -d ',' -f 2 | sort -u | wc -l
+- p41: time sed '1d' challenges/people.csv | cut -d',' -f2 | sort -u | wc -l && time tail -n +2 challenges/people.csv | cut -d',' -f2 | sort -u | wc -l
